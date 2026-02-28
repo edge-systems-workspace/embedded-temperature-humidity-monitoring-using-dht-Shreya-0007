@@ -34,4 +34,14 @@ dht.begin();
 Serial.println("DHT11 Environmental Monitoring System Initialized...");
 
 
+void loop() {
+
+// TODO 7:
+//
+float humidity = dht.readHumidity();
+
+// TODO 8:
+// Read temperature value from sensor
+float temperature = dht.readTemperature();
+
 }
