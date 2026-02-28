@@ -25,3 +25,4 @@ void setup() {
 // TODO 4:
 // Initialize Serial communication (9600 baud rate)
 Serial.begin(9600);
+}
